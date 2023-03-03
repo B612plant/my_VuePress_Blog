@@ -9,7 +9,7 @@ module.exports = {
                 text: '知日的 JavaScript 博客', 
                 items: [
                     { text: 'Github', link: 'https://github.com/B612plant' },
-                    { text: '掘金', link: 'https://juejin.cn/user/712139234359182/posts' }
+                    { text: '掘金', link: 'https://juejin.cn/user/1086788269255384/posts' }
                 ]
             }
         ],
