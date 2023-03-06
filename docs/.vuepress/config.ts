@@ -1,8 +1,10 @@
-module.exports = {
+module.exports={
     title: '知日的小星球',
     description: '方传智博客标题',
     base: '/my_VuePress_Blog/',
+    theme:'vuepress-theme-reco',
     themeConfig: {
+        subsidebar: 'auto',
         nav: [
             { text: '首页', link: '/' },
             { 
@@ -32,5 +34,10 @@ module.exports = {
               ],
             }
         ]
-    }
-}
+    },
+    locales: {
+        '/': {
+          lang: 'zh-CN'
+        }
+    },
+};

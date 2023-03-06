@@ -5,13 +5,17 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
   },
   "author": "fcz",
   "license": "ISC",
   "devDependencies": {
     "vuepress": "^1.9.9",
     "vuepress-theme-reco": "^1.6.17"
+  },
+  "dependencies": {
+    "element-ui": "^2.15.13",
+    "mock.js": "^0.2.0"
   }
 }
